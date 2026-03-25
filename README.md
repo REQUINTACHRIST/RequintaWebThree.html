@@ -39,6 +39,7 @@
 <section id="flavors">
   <h2>Flavors</h2>
   <p><strong>There are a lot of fillings and toppings you can add to your donut. Just select one and then submit it!</strong></p>
+    <br>
   <form action="/submit-flavor" method="post">
     <label for="flavor">Choose your flavor:</label>
     <select id="flavor" name="flavor">
@@ -49,6 +50,7 @@
     </select>
     <button type="submit">Submit Flavor</button>
   </form>
+    <br>
 </section>
 <br>
 <br>
